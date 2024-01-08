@@ -10,11 +10,22 @@
 
 <body>
     <!-- header -->
-    <header></header>
+    <header>
+        <h1>PHP Badwords</h1>
+    </header>
     <!-- /header -->
 
     <!-- main -->
-    <main></main>
+    <main>
+        <h3>Compila il form</h3>
+        <form action="censura.php" method="get">
+            <label for="paragrafo">Scrivi il paragrafo</label>
+            <input type="text" name="paragrafo" id="paragrafo">
+            <label for="censura">Scrivi la parola da censurare nel paragrafo</label>
+            <input type="text" name="censura" id="censura">
+            <button>Invia il form</button>
+        </form>
+    </main>
     <!--/main -->
 </body>
 
